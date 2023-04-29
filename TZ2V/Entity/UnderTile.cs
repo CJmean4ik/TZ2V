@@ -9,6 +9,7 @@ namespace TZ2V.Entity
     {
         public string NameTile { get; set; }
         public string DataTileUrl { get; set; }
+        public int TileId { get; set; }
         public Tile DataOnScheme { get; set; } = new Tile();
     }
 }

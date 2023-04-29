@@ -9,6 +9,9 @@
         public int Count { get; set; }
         public string Data { get; set; }
         public string Info { get; set; }
+        public int TileId { get; set; }
+        public int TreeInfoId { get; set; }
+
     }
 }
 

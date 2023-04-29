@@ -14,7 +14,7 @@ namespace TZ2V.Entity
         public string? ATMMTM { get; set; }
         public string? GearShiftType { get; set; }
         public string? CAB { get; set; }
-        public string? TransmissionModel { get; set; }
+        public string? TransmissionType { get; set; }
         public string? LoadingCapacity { get; set; }
         public string? RearTire { get; set; }
         public string? FuelInduction { get; set; }
@@ -34,7 +34,7 @@ namespace TZ2V.Entity
                  $"ATM-MTM: {ATMMTM}\n" +
                  $"GearShiftType: {GearShiftType}\n" +
                  $"CAB: {CAB}\n" +
-                 $"TransmissionType: {TransmissionModel}\n" +
+                 $"TransmissionType: {TransmissionType}\n" +
                  $"LoadingCapasity: {LoadingCapacity}\n" +
                  $"RearTire: {RearTire}\n" +
                  $"FuelInduction: {FuelInduction}\n" +

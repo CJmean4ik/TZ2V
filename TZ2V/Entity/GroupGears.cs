@@ -14,6 +14,8 @@ namespace TZ2V.Entity
     {
         public string NameGroup { get; set; }
         public string UrlOnGears { get; set; }
+        public int UnderTileId { get; set; }
+        public int ComplectationsID { get; set; }
         public List<UnderTile> UnderTiles { get; set; } = new List<UnderTile>();
 
     }
